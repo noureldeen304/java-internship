@@ -16,7 +16,7 @@ public class Main {
                 num1 = input.nextInt();
                 inputValid = true;
             } catch (InputMismatchException e) {
-                System.out.println("Your inpur should be in integer type.");
+                System.out.println("Your input should be in integer type.");
                 input.next();
             }
         }
@@ -29,7 +29,7 @@ public class Main {
                 num2 = input.nextInt();
                 inputValid = true;
             } catch (InputMismatchException e) {
-                System.out.println("Your inpur should be in integer type.");
+                System.out.println("Your input should be in integer type.");
                 input.next();
             }
         }
