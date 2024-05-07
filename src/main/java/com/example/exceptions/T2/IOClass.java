@@ -22,5 +22,7 @@ public class IOClass {
 
         System.out.println(wordsCount);
 
+        bufferedReader.close();
+
     }
 }
