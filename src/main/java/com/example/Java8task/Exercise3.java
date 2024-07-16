@@ -9,8 +9,7 @@ public class Exercise3 {
 
         List<Product> discountedToys = products.stream()
                 .filter(product -> "Toys".equals(product.getCategory()))
-                .map(product -> new Product(product.getProductId(), product.getProductName(), product.getCategory(), product.getPrice() * 0.9))
-                .collect(Collectors.toList());
+                .map(product -> new Product(product.getProductId(), product.getProductName(), product.getCategory(), product.getPrice() * 0.9)).toList();
 
         discountedToys.forEach(System.out::println);
     }
