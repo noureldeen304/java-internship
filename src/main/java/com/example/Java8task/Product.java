@@ -45,7 +45,6 @@ public class Product {
         this.price = price;
     }
 
-    // toString method
     @Override
     public String toString() {
         return "Product{" +
@@ -56,7 +55,6 @@ public class Product {
                 '}';
     }
 
-    // withPrice method
     public Product withPrice(double price) {
         if (this.price == price) {
             return this;
